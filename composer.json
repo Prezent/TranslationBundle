@@ -12,15 +12,15 @@
   ],
   "require": {
     "php": "^7.4||^8.0",
-    "symfony/yaml": "^5.4",
-    "symfony/finder": "^5.4",
-    "symfony/filesystem": "^5.4",
-    "symfony/console": "^5.4"
+    "symfony/yaml": "^5.4||^6.4||^7.3",
+    "symfony/finder": "^5.4||^6.4||^7.3",
+    "symfony/filesystem": "^5.4||^6.4||^7.3",
+    "symfony/console": "^5.4||^6.4||^7.3"
   },
   "require-dev": {
-    "symfony/http-kernel": "^5.4",
-    "symfony/phpunit-bridge": "^5.4",
-    "symfony/dependency-injection": "^5.4"
+    "symfony/http-kernel": "^5.4||^6.4||^7.3",
+    "symfony/phpunit-bridge": "^5.4||^6.4||^7.3",
+    "symfony/dependency-injection": "^5.4||^6.4||^7.3"
   },
   "autoload": {
     "psr-4": {
