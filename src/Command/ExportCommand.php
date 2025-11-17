@@ -54,7 +54,7 @@ class ExportCommand extends Command
     /**
      * @inheritdoc
      */
-    protected function execute(InputInterface $input, OutputInterface $output)
+    protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $bundlesNames = explode(',', $input->getArgument('bundles'));
 
