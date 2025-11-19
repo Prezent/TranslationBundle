@@ -24,10 +24,8 @@ class LoadTranslationService
 
     /**
      * Root Dir.
-     *
-     * @var string
      */
-    private $rootDir = null;
+    private ?string $rootDir;
 
     /**
      * Translation Path.
@@ -139,11 +137,8 @@ class LoadTranslationService
 
     /**
      * Imports some translations files.
-     *
-     * @param string $bundleName
-     * @param Finder $finder
      */
-    protected function loadTranslationFiles(string $bundleName, Finder $finder = null)
+    protected function loadTranslationFiles(string $bundleName, ?Finder $finder = null)
     {
         if (!$finder instanceof Finder) {
             return;
